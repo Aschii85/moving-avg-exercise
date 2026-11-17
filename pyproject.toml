@@ -1,0 +1,14 @@
+[project]
+name = "moving-avg-exercise"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Alexander Schierbeck-Hansen", email = "153220054+Aschii85@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "marimo[recommended]>=0.25.2",
+    "plotly[express]>=7.1.0",
+    "polars>=2.1.0",
+]
